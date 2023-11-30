@@ -3,8 +3,8 @@
 #define TRACK_PANEL_HANDLERS
 ((enter
       {game add_sink $this}
-      ;{{{gamemode get track_panel} loaded_dir} set view_time_easy {* {/ $trackspeed} $speedmod}} for whatever reason this just doesn't work. must be missing something very silly. wait maybe it's speedmod lmao
-      ;{{{gamemode get track_panel} loaded_dir} set view_time_expert {* {/ $trackspeed} $speedmod}}
+      {{{gamemode get track_panel} loaded_dir} set view_time_easy {* {/ $trackspeed} $speedmod}} ;for whatever reason this just doesn't work. must be missing something very silly.
+      {{{gamemode get track_panel} loaded_dir} set view_time_expert {* {/ $trackspeed} $speedmod}}
       {$this
          set_showing
          {if_else
