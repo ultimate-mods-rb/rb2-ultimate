@@ -24,19 +24,19 @@
       unlocked)
    (mod_nohud unlocked)
    (mod_unlockall
-      ;(disables
-      ;   #ifdef HX_EE
-      ;   (modifier_saving_feature)
-      ;   #endif
-      ;   #ifdef HX_WII
-      ;   (modifier_saving_feature) ;modifier_online_feature removed lets hope this doesn't cause anything bad
-      ;   #else
-      ;   (modifier_saving_feature modifier_achievements_feature modifier_online_feature)
-      ;   #endif)
+      (disables
+         #ifdef HX_EE
+         (modifier_saving_feature)
+         #endif
+         #ifdef HX_WII
+         (modifier_saving_feature) ;modifier_online_feature removed lets hope this doesn't cause anything bad
+         #else
+         (modifier_saving_feature modifier_achievements_feature modifier_online_feature)
+         #endif)
       (activate
          {profile_mgr unlock_all_songs})
-      ;(deactivate
-      ;   {profile_mgr relock_songs})
+      (deactivate
+         {profile_mgr relock_songs})
         unlocked)
    (mod_newvenuesonly unlocked)
    (mod_demomode
