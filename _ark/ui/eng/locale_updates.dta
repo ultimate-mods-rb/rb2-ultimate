@@ -1,3 +1,11 @@
+(mod_trackspeed_175 
+   "175% Breakneck Speed")
+(mod_trackspeed_175 
+   "175% Breakneck Speed")
+(mod_trackspeed_175_desc 
+   "Increases the track scrolling speed 1.75 times of the orginal value")
+(mod_trackspeed_175_desc 
+   "Increases the track scrolling speed 2.00 times of the orginal value")
 (mod_staticfills 
    "Legacy Drum Fills")
 (mod_staticfills_desc 

@@ -72,7 +72,7 @@
 #endif
 #endif
 
-{set $trackspeed 2.00}
+{set $trackspeed 1.00}
 {set $speedmod 1.00}
 
 {platform_mgr set_notify_ui_location kOSNotifyBottomCenter}

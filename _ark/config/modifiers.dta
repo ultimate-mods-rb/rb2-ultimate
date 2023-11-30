@@ -14,8 +14,10 @@
       unlocked)
    (mod_doublespeed
       (activate
-         {modifier_mgr deactivate_modifier mod_halfspeed})
+         {modifier_mgr deactivate_modifier mod_halfspeed} {set $trackspeed 1.00} {modifier_mgr deactivate_modifier mod_trackspeed_175} {modifier_mgr deactivate_modifier mod_trackspeed_200})
       unlocked)
+   (mod_trackspeed_175 (activate {set $trackspeed 1.75} {modifier_mgr deactivate_modifier mod_trackspeed_200} {modifier_mgr deactivate_modifier mod_doublespeed}) unlocked)
+   (mod_trackspeed_200 (activate {set $trackspeed 2.00} {modifier_mgr deactivate_modifier mod_trackspeed_175} {modifier_mgr deactivate_modifier mod_doublespeed}) unlocked)
    (mod_choose_venue
       #ifndef HX_EE
       (disables
