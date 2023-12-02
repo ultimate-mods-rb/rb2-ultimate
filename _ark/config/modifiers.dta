@@ -53,4 +53,5 @@
          #endif)
         unlocked)
    (mod_awesome unlocked)
-   (mod_auto_play (disables (modifier_saving_feature modifier_online_feature)) unlocked))
+   (mod_auto_play (disables (modifier_saving_feature modifier_online_feature)) (activate {modifier_mgr deactivate_modifier mod_staticfills}) unlocked)
+   (mod_staticfills unlocked))

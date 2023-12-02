@@ -72,6 +72,7 @@
 #endif
 #endif
 
+{modifier_mgr activate_modifier mod_staticfills}
 {set $trackspeed 1.00}
 {set $speedmod 1.00}
 
